@@ -22,12 +22,6 @@ A sleek and responsive JavaScript-based Quiz Application with vibrant UI, gradie
 
 ---
 
-## 📸 Demo
-
-Check out the live version: [Live Demo](#) <!-- Replace with your live link if hosted -->
-
----
-
 ## 📂 Folder Structure
 
 /quiz-app
@@ -43,7 +37,7 @@ Check out the live version: [Live Demo](#) <!-- Replace with your live link if h
 ## ⚙️ Setup & Run Locally
 
 ```bash
-git clone https://github.com/your-username/quiz-app.git
+git clone https://github.com/ShakebShamsi/quiz-app.git
 cd quiz-app
 open index.html
 ```
@@ -62,8 +56,6 @@ Backend integration
 
 🧑‍💻 Author
 Shakeb Hassan Shamsi
-🔗 LinkedIn
-📧 shakeb.hassan@example.com <!-- Replace with actual email if needed -->
 
 
 
