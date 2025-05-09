@@ -1,0 +1,111 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 480px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 30px 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Choices list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+/* Hover effect */
+li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.02);
+}
+
+/* Correct and wrong choice colors */
+.correct {
+  background-color: #4CAF50 !important;
+  border-color: #388E3C;
+  color: #fff;
+}
+
+.wrong {
+  background-color: #E53935 !important;
+  border-color: #C62828;
+  color: #fff;
+}
+
+/* Buttons */
+button {
+  margin-top: 15px;
+  padding: 12px 24px;
+  background: linear-gradient(to right, #6200ea, #9c27b0);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #3700b3, #7b1fa2);
+}
+
+/* Hidden class */
+.hidden {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
